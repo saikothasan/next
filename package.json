@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "react": "19.0.0-rc-69d4b800-20241021",
+    "axios": "1.7.7",
+    "csv-parser": "3.0.0",
     "react-dom": "19.0.0-rc-69d4b800-20241021",
     "next": "15.0.1"
   },
