@@ -1,20 +1,9 @@
 import Link from 'next/link';
-import { DefaultSeo } from 'next-seo';
 import './globals.css';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <DefaultSeo
-        title="BIN Checker"
-        description="Check BIN information easily."
-        openGraph={{
-          type: 'website',
-          locale: 'en_US',
-          url: 'https://www.yourdomain.com/',
-          site_name: 'BIN Checker',
-        }}
-      />
       <head>
         <title>BIN Checker</title>
       </head>
